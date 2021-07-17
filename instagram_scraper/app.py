@@ -744,6 +744,7 @@ class InstagramScraper(object):
                 'following_count': user_info['edge_follow']['count'],
                 'full_name': user_info['full_name'],
                 'id': user_info['id'],
+                'external_url': user_info['external_url'],
                 'is_business_account': user_info['is_business_account'],
                 'is_joined_recently': user_info['is_joined_recently'],
                 'is_private': user_info['is_private'],
